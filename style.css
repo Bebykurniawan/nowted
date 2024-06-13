@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #181818;
+  background-image: url(assets/background-hero.png);
+  background-repeat: no-repeat;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.nav {
+  margin-top: 58px;
+  margin-bottom: 123px;
+}
+
+.nav .container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu {
+  display: flex;
+  gap: 50px;
+}
+
+.menu-item {
+  color: rgb(255, 255, 255, 0.8);
+  font-weight: 400;
+}
+
+.menu-item-active {
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+}
+
+.menu-item:hover {
+  color: rgb(255, 255, 255);
+}
+
+.login {
+  padding: 15px 30px;
+  background-color: rgba(255, 255, 255, 5%);
+  color: #fff;
+  font-weight: 700;
+  border-radius: 3px;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  gap: 30px;
+}
+
+.hero-headline {
+  font-size: 2.5rem;
+  max-width: 922px;
+  font-weight: 300;
+  color: #fff;
+  line-height: 60px;
+}
+
+.hero-headline-md {
+  font-weight: 500;
+}
+
+.hero-subheadline {
+  color: rgba(255, 255, 255, 60%);
+  font-size: 1.125rem;
+  max-width: 556px;
+  font-weight: 400;
+  line-height: 34px;
+}
+
+.hero-ctas {
+  background-color: #3a3af4;
+  border-radius: 3px;
+  padding: 15px 30px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-ctas-text {
+  color: #fff;
+  padding-right: 20px;
+  font-weight: 500;
+}
+
+.container-hero-image {
+  width: 1006px;
+  height: 770px;
+  background-color: rgba(255, 255, 255, 3%);
+  border-radius: 3px;
+  margin-top: 72px;
+  margin-bottom: 136px;
+}
+
+.circle-wrapper {
+  margin-top: 28px;
+  margin-left: 30px;
+  display: flex;
+  gap: 5px;
+}
+
+.circle {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.circle:nth-child(1) {
+  background-color: #ff007a;
+}
+.circle:nth-child(2) {
+  background-color: #ffe600;
+}
+.circle:nth-child(3) {
+  background-color: #05ff00;
+}
+
+.container-link {
+  background-color: rgba(255, 255, 255, 5%);
+  border-radius: 6px;
+  padding: 10px 15px;
+  display: inline-block;
+  margin-bottom: 12px;
+}
+
+.link-description {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.link-paragraf {
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  font-weight: 400;
+}
+
+.refresh-icon {
+    margin-left: 128px;
+}
